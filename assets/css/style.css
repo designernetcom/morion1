@@ -22,7 +22,8 @@ h6 {
 }
 
 p {
-    line-height: 1.5
+    line-height: 1.5;
+    font-family: 'Ysabeau', sans-serif;
 }
 
 a {
@@ -45,20 +46,20 @@ img {
 }
 
 .ptb-100 {
-    padding-top: 100px;
-    padding-bottom: 100px
+    padding-top: 75px;
+    padding-bottom: 75px
 }
 
 .pt-100 {
-    padding-top: 55px;
+    padding-top: 65px;
 }
 
 .pb-70 {
-    padding-bottom: 70px
+    padding-bottom: 60px
 }
 
 .pb-100 {
-    padding-bottom: 100px
+    padding-bottom: 60px
 }
 
 button:focus {
@@ -633,7 +634,7 @@ button:focus {
 
 .one-section-title {
     text-align: center;
-    margin-bottom: 50px
+    margin-bottom: 45px
 }
 
 .one-section-title .sub-title {
@@ -647,7 +648,7 @@ button:focus {
     -webkit-text-fill-color: transparent;
     position: relative;
     margin-bottom: 5px;
-    font-family: 'Vidaloka', serif;
+    font-family: 'Ysabeau', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -923,10 +924,10 @@ button:focus {
 }
 
 .one-service-area .service-advisor {
-    padding: 35px;
+    /* padding: 35px; */
     border-radius: 4px;
-    -webkit-box-shadow: 0 0 20px 0 #dddddd96;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* -webkit-box-shadow: 0 0 20px 0 #dddddd96;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
 .one-service-area .service-advisor .advisor-img img {
@@ -1221,7 +1222,7 @@ button:focus {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Vidaloka', serif;
+    font-family: 'Ysabeau', sans-serif;
 }
 
 .one-among-area .among-item .among-bottom a:hover i {
@@ -1932,7 +1933,7 @@ button:focus {
 }
 
 .one-contact-area {
-    font-family: 'Bacasime Antique', serif;
+    font-family: 'Ysabeau', sans-serif;
 }
 
 .one-contact-area .contact-img {
@@ -1971,7 +1972,7 @@ button:focus {
 
 .one-contact-area .contact-content .form-group label {
     margin: 0;
-    color: #7f7f7f;
+    color: white;
     display: inline-block;
     font-size: 18px;
     position: absolute;
@@ -1982,18 +1983,18 @@ button:focus {
 .one-contact-area .contact-content .form-group .form-control {
     height: 50px;
     border-radius: 0;
-    background-color: #fff;
+    background-color: transparent;
     padding-left: 50px;
     border: 0;
     font-weight: 500;
     font-size: 15px;
-    border: 1px solid #790715;
+    border: 1px solid white;
 }
 
 .one-contact-area .contact-content .form-group .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 0
+    border-color: white;
 }
 
 .one-contact-area .contact-content .form-group textarea {
@@ -2002,20 +2003,26 @@ button:focus {
 }
 
 .one-contact-area .contact-content .form-group ::-webkit-input-placeholder {
-    color: #7f7f7f
+    color: white;
 }
 
 .one-contact-area .contact-content .form-group :-ms-input-placeholder {
-    color: #7f7f7f
+    color: white;
 }
 
 .one-contact-area .contact-content .form-group ::-ms-input-placeholder {
-    color: #7f7f7f
+    color: white;
 }
 
 .one-contact-area .contact-content .form-group ::placeholder {
-    color: #7f7f7f
+    color: white;
 }
+
+.form-group:focus {
+    color: #ffffff !important;}
+    input:focus::placeholder {
+        color: white;
+      }
 
 .one-contact-area .contact-content .contact-btn {
     color: #fff;
@@ -2147,7 +2154,8 @@ button:focus {
 }
 
 .one-blog-area .blog-item .blog-top a img {
-    width: 100%
+    width: 100%;
+    border-radius: 4px;
 }
 
 .one-blog-area .blog-item .blog-top span {
@@ -2437,8 +2445,9 @@ button:focus {
 
 .one-footer-area .footer-item .footer-quick ul li a {
     display: block;
-    font-size: 16px;
-    color: #fff
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Ysabeau', sans-serif;
 }
 
 .one-footer-area .footer-item .footer-quick ul li a:hover {
@@ -3227,9 +3236,10 @@ button:focus {
 }
 
 .two-house-area .house-item h3 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     color: #000;
+    font-family: 'Ysabeau', sans-serif;
     margin-bottom: 12px
 }
 
@@ -3267,7 +3277,7 @@ button:focus {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #7907150a;
+    background-color: #0202020a;
     text-align: center;
     position: relative;
     padding-bottom: 40px
@@ -8524,7 +8534,7 @@ button:focus {
 }
 
 .about-style-wrap-content .about-list-tab {
-    margin-top: 25px
+    margin-top: 20px
 }
 
 .about-style-wrap-content .about-list-tab .nav {
@@ -8552,7 +8562,8 @@ button:focus {
     font-weight: 700;
     font-size: 18px;
     position: relative;
-    padding-bottom: 20px
+    padding-bottom: 12px;
+    font-family: 'Ysabeau', sans-serif;
 }
 
 .about-style-wrap-content .about-list-tab .nav .nav-item .nav-link::before {
@@ -8582,7 +8593,7 @@ button:focus {
 }
 
 .about-style-wrap-content .about-list-tab .tab-content .tab-pane .content {
-    margin-top: 25px
+    margin-top: 15px
 }
 
 .about-style-wrap-content .about-list-tab .tab-content .tab-pane .content .list {
@@ -14026,7 +14037,7 @@ button:focus {
 /*------------- Form ---------------*/
 .con_list li {
     list-style-type: none;
-    color: #790715;
+    color: white;
     font-size: 20px;
     padding-bottom: 20px;
     font-family: math;
@@ -14040,11 +14051,11 @@ button:focus {
     margin-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-    background-image: url(../img/home-two/address-bg.png);
+    background-image: url(../img/contact.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #79071517;
+    background-color: #7b636617;
 
     position: relative;
 }
@@ -14052,11 +14063,11 @@ button:focus {
 .aa {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 30px 40px 10px 40px;
-    background-image: url(../img/home-two/address-bg.png);
+    background-image: url(../img/contact.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #79071517;
+    background-color: #7b636617;
     text-align: center;
     position: relative;
     padding-bottom: 40px;
@@ -14064,7 +14075,8 @@ button:focus {
 
 .con_list li a {
 
-    color: #000;
+    color: white;
+    font-family: 'Ysabeau', sans-serif;
 }
 
 .nb-form {
@@ -14239,3 +14251,24 @@ button:focus {
 .two-banner-slider  {
     display: none;
  }
+ .two-house-area {
+    padding: 30px 0px;
+ }
+ .one-blog-area {
+    background-image: url(../img/home-two/address-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #0202020a;
+ }
+ input::placeholder {
+
+    color: white !important;
+}
+textarea::placeholder {
+
+    color: white !important;
+}
+.form-control {
+    color: white !important;
+}
